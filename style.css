@@ -1,0 +1,183 @@
+
+:root {
+    box-sizing: border-box;
+    color: white;
+
+}
+
+*,::before, ::after {
+    box-sizing: inherit;
+
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/05/01/20/wood-2203740_1280.jpg);
+}
+
+#header {
+    background: black;
+    padding: 5px;
+    font-family: "Cookie", cursive;
+    display: flex;
+    justify-content:space-between ;
+}
+
+#logo img {
+    margin: 20px;
+    width: 60px;
+}
+
+.menu {
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+} 
+
+.menu ul li a {
+    color: white;
+    font-size: 1.4rem;
+ }
+
+ .menu ul li a:hover {
+    color: #FFD77D;
+ }
+
+ .contact-info {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+ }
+
+ .slider-box{
+    height: 200px;
+    background-color: black;
+    display: flex;
+ }
+
+ .slider-half-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    font-family: cursive, Geneva;
+    padding: 20px;
+ }
+
+ .slider-half-item .buttom {
+    text-transform: uppercase;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 0.7rem;
+
+ }
+ .button-section {
+    margin-top: 20px;
+ }
+ .order-button {
+    color: #7FD7FF;
+    border: 2px solid #7FD7FF;
+ }
+ .book-button {
+    color: #FFD77D;
+    border: 2px solid #FFD77D;
+    background-color: #936C02;
+ }
+
+ .order-button:hover, .book-button:hover{
+    background-color: #333;
+ }
+
+ .pizza-img {
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg);
+    background-size: cover;
+    background-position: center center
+
+ }
+ .advantages-box {
+    margin-top: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+ }
+ .advantages-box div {
+    flex: 1 0 30%;
+ }
+ 
+ .column-advantages {
+    position: relative;
+    height: 160px;
+    border: 5px solid black;
+    background-size: cover;
+    background-position: center center;
+ }
+
+ .best-ingredients {
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/24/13/29/olive-oil-1412361__340.jpg");
+ }
+
+ .original-recipe {
+    background-image:url("https://cdn.pixabay.com/photo/2016/05/06/12/15/cook-1375788_960_720.jpg") ;
+ }
+
+ .fats-delivery {
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/10/18/31/motor-scooter-4837310_960_720.jpg");
+ }
+
+ .botton-right {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+ }
+ .kitchen-menu {
+    margin-top: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    gap: 20px;
+ }
+ .menu-one-forth {
+    flex-basis: 25%;
+    text-align: center;
+    font-size: 0.9rem;
+
+ }
+ .menu-one-forth img {
+    width: 100%;
+    transition-duration: 3s;
+    margin: 0 auto;
+    display: block;
+
+  }
+
+  .menu-one-forth img:hover {
+   transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+   z-index: 0;
+
+
+  }
+ .page-footer {
+    width: 100%;
+    background-color: black;
+    font-family: Cookie, cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+ }
+ 
